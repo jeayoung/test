@@ -7,9 +7,9 @@ void sum(ifstream& in, ofstream& out, int& num);
 
 void sum(ifstream& in, ofstream& out, int& num){
 	num+=1;
-	out<<num<<endl;
+	out<<num<<endl;//주석달기
 }
-void main(){
+void main(){//오호 hw1인가!
 	int num;
 	ifstream in;
 	in.open("input.txt");
